@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="../css/global_style.css" />
+    <link rel="stylesheet" href="../css/index/main.css">
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/index/modal_topic.css">
+
+    <title>Unicamp | Programação para web - SI401</title>
+</head>
+<body>
+    <!-- HEADE - START -->
+    <header>
+        <div class="header-bar">
+            <div class="logos">
+                <img src="../assets/UNICAMP_logo.svg.png" alt="logo_unicamp" id="logo_unicamp">
+                <div class="separator-logos"></div>
+                <img src="../assets/logo_ft.png" alt="logo_unicamp_ft" id="logo_unicamp_ft">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="./plano_de_ensino.html">Plano de aulas</a></li>
+                    <li><a href="#">Monitores</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-painel">
+            <p>Programação para Web</p>
+            <p>SI401</p>
+            <div class="separator"></div>
+            <button>
+                <a href="https://moodle.ggte.unicamp.br/">Ir para Moodle</a>
+            </button>
+        </div>
+    </header>
+    <!-- HEADER - END -->
+
+    <!-- MAIN - START -->
+    <main>
+        <section class="discipline_features">
+            <div class="title">
+                <p>Características da disciplina</p>
+                <div class="separator"></div>
+            </div>
+            <div id="topic_obj" class="topics">
+                <div class="topic">
+                    <p>Objetivo</p>
+                    <div class="separator"></div>
+                </div>
+    
+                <div id="topic_ementa" class="topic">
+                    <p>Ementa</p>
+                    <div class="separator"></div>
+                </div>
+    
+                <div id="topic_metodologia" class="topic">
+                    <p>Metodologia</p>
+                    <div class="separator"></div>
+                </div>
+            </div>
+            <button>
+                <a href="#">Plano de aula</a>
+            </button>
+        </section>
+
+            <!-- MODAL - OBJETIVOS - START -->
+    
+                <div id="modal_obj" class="modal-objetivos">
+                    <h2>Objetivos dessa disciplina</h2>
+                    Colocar em perspectiva a programação para Web. Capacitar o aluno a compreender as principais
+                    linguagens de marcação e estilo. Capacitar o aluno a compreender e desenvolver scripts para execução em
+                    navegadores. Capacitar o aluno a compreender e desenvolver scripts para execução em servidores web.
+                    <button id="exit_obj">fechar modal</button>
+                </div>
+
+            <!-- MODAL - OBJETIVOS - END!!! -->
+
+            <!-- MODAL - EMENTA - START -->
+    
+                <div id="modal_ementa" class="modal-ementa">
+                    <h2>Ementa dessa disciplina</h2>
+                    Elaboração de páginas web. Linguagens de marcação. Folhas de estilo. Javascript. Uso de linguagens de
+                    programação para geração dinâmica de páginas web. Uso de servidores web para armazenamento de sites.
+                    Atividades práticas de implementação de sistemas baseados nessas linguagens.
+                    <button id="exit_ementa">fechar modal</button>
+                </div>
+        
+            <!-- MODAL - EMENTA - END!!! -->
+
+            <!-- MODAL - METODOLOGIA - START -->
+    
+                <div id="modal_metodologia" class="modal-metodologia">
+                    <h2>Metodologia de ensino dessa disciplina</h2>
+                    <ol>
+                        <li>Aulas em vídeo sobre cada tópico;</li>
+                        <li>Plantões para dúvidas no horário de aula (via Google Meet);</li>
+                        <li>Exercícios práticos individuais de fixação;</li>
+                        <li>Projeto em grupo</li>
+                    </ol>
+                    <button id="exit_metodologia">fechar modal</button>
+                </div>
+
+            <!-- MODAL - METODOLOGIA - END!!! -->
+
+
+        <section class="discipline_schedules">
+            <div class="title">
+                <h2>Horários e mais detalhes sobre a disciplina</h2>
+                <div class="separator"></div>
+            </div>
+
+            <div class="discipline_grid">
+                <div class="horario-aula">
+                    <div class="subtitle">
+                        <h3>Horário da disciplina</h3>
+                        <div class="separator"></div>
+                    </div>
+                    <p>Todas as Quinta-Ferias das <strong>8h00</strong> às <strong>12h00</strong> (4 horas)</p>
+                </div>
+                <div class="carga-horaria">
+                    <div class="subtitle">
+                        <h3>Carga horária</h3>
+                        <div class="separator"></div>
+                    </div>
+                    <p><strong>60 horas</strong> de curso no total</p>
+                </div>
+                <div class="professor">
+                    <div class="subtitle">
+                        <h3>Professor</h3>
+                        <div class="separator"></div>
+                    </div>
+                    <p><strong>Nome:</strong> Guilherme Palermo Coelho</p>
+                    <p><strong>Email: </strong> guilherme@ft.unicamp.br</p>
+                </div>
+                <div class="monitores">
+                    <div class="subtitle">
+                        <h3>Monitores</h3>
+                        <div class="separator"></div>
+                    </div>
+                    <p>Tadeu Martines <strong>(t187233@dac.unicamp.br)</strong></p>
+                    <p>Miguel Amaral <strong>(m222518@dac.unicamp.br)</strong></p>
+                </div>
+            </div>
+
+            <button>
+                <a href="#!">Link para aula</a>
+            </button>
+        </section>
+
+        <section class="bibliografia">
+            <div class="title">
+                <h2>Bibliografia Recomendada</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="sites">
+                <div class="subtitle">
+                    <h3>Sites</h3>
+                    <div class="separator-sm"></div>
+                </div>
+
+                <div class="sites-painel">
+                    <a href="https://www.w3schools.com/">
+                        <img 
+                            src="../assets/bibliografia/sites/w3s.png" 
+                            alt="logo_w3s" 
+                            class="w3s"
+                        />
+                    </a>
+                    <a href="https://developer.mozilla.org/pt-BR/">                        
+                        <img 
+                            src="../assets/bibliografia/sites/mdn_developer_docs.png" 
+                            alt="logo_mdn" 
+                            class="mdn"
+                        />
+                    </a>
+                </div>
+            </div>
+
+            <div class="books">
+                <div class="subtitle">
+                    <h3>Livros</h3>
+                    <div class="separator-sm"></div>  
+                </div>
+
+                <div class="books-painel">
+                    <img src="../assets/bibliografia/livros/construindo_sites_com_css_e_xhtml_novatec.jpg" alt="img">
+                    <img src="../assets/bibliografia/livros/desenvolvendo_websites_com_php.jpg" alt="img">
+                    <img src="../assets/bibliografia/livros/desenvolvimento_de_grandes_aplicacoes_web.jpg" alt="img">
+                    <img src="../assets/bibliografia/livros/javascript_guia_do_programador.jpg" alt="img">
+                    <img src="../assets/bibliografia/livros/php_orientado_a_objetos.jpg" alt="img">
+                    <img src="../assets/bibliografia/livros/web_server_programming.jpg" alt="img">
+                </div>
+            </div>  
+        </section>
+    </main>
+
+    <!-- MAIN - END -->
+
+    <!-- FOOTER - START -->
+
+    <footer>
+        <div class="footer-data">
+            <div class="subtitle">
+                <p><strong>Endereço</strong></p>
+                <div class="separator-sm"></div>
+                <p>R. Paschoal Marmo, 1888 - Jardim Nova Italia, Limeira - SP, 13484-332</p>
+            </div>
+            <div class="subtitle">
+                <p><strong>Telefone</strong></p>
+                <div class="separator-sm"></div>
+                <p>(19) 2113-3339</p>
+            </div>
+            <div class="subtitle">
+                <p><strong>Campus I de Limeira</strong></p>
+                <div class="separator-sm"></div>
+                <p>Campus I de Limeira</p>
+            </div>
+        </div>
+        <div class="footer-logo">
+            <img src="../assets/logo_ft.png" class="logo-unicamp-ft" alt="logo_faculdade_de_tecnologia_da_unicamp">
+            <img src="../assets/UNICAMP_logo.svg.png" class="logo-unicamp" alt="logo_unicamp">
+            <img src="../assets/logo_sae.png" class="unicamp-sae" alt="logo_unicamp_sae">
+        </div>
+    </footer>
+    <div class="copy">
+        <p>Copyright  2020-  Todos os direitos reservados / Desenvolvido com muito s2 por Vitor Kogawa</p>
+    </div>
+
+    <!-- FOOTER - STOP -->
+</body>
+
+<script>
+    //tópicos da disciplina
+    const topic_obj = document.getElementById('topic_obj')
+    const topic_ementa = document.getElementById('topic_ementa')
+    const topic_metodologia = document.getElementById('topic_metodologia')
+
+    //modais de cada tópico
+    const modal_obj = document.getElementById('modal_obj')
+    const modal_ementa = document.getElementById('modal_ementa')
+    const modal_metodologia = document.getElementById('modal_metodologia')
+
+    //botões para fechar os modais
+    const exit_obj = document.getElementById('exit_obj')
+    const exit_ementa = document.getElementById('exit_ementa')
+    const exit_metodologia = document.getElementById('exit_metodologia')
+
+    //EVENTO DE CLICK PARA O TÓPICO DE OBJETIVOS    
+    topic_obj.addEventListener("click", () => {
+        modal_obj.style.opacity = "1"
+        modal_obj.style.visibility = "visible"
+    })  
+
+    exit_obj.addEventListener("click", () =>{
+        modal_obj.style.opacity = "0"
+        modal_obj.style.visibility = "hidden"
+    })
+    
+    //EVENTO DE CLICK PARA O TÓPICO DE EMENTA
+    topic_ementa.addEventListener("click", () => {
+        modal_ementa.style.opacity = "1"
+        modal_ementa.style.visibility = "visible"
+    })  
+
+    exit_ementa.addEventListener("click", () =>{
+        modal_ementa.style.opacity = "0"
+        modal_ementa.style.visibility = "hidden"
+    })
+    
+    //EVENTO DE CLICK PARA O TÓPICO DE METODOLOGIA
+    topic_metodologia.addEventListener("click", () => {
+        modal_metodologia.style.opacity = "1"
+        modal_metodologia.style.visibility = "visible"
+    })  
+
+    exit_metodologia.addEventListener("click", () =>{
+        modal_metodologia.style.opacity = "0"
+        modal_metodologia.style.visibility = "hidden"
+    })
+</script>
+</html>

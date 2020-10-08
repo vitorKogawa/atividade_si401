@@ -1,0 +1,54 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #c4c4c4;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+
+footer div.footer-logo{
+    width: 250px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer  div.footer-logo > img{
+    margin: 20px;
+    cursor: pointer;
+}
+
+footer div.footer-logo > img.logo-unicamp-ft{
+    width: 80px;
+    height: 80px;
+}
+
+footer div.footer-logo > img.logo-unicamp{
+    width: 80px;
+    height: 80px;
+}
+
+footer div.footer-logo > img.unicamp-sae{
+    width: 200px;
+    height: 80px;
+}
+
+footer div.footer-data div.subtitle{
+    margin: 20px;
+}
+
+footer div.footer-data div.subtitle > div.separator-sm{
+    margin: 5px 0px 10px 0px;
+}
+
+div.copy{
+    background-color: #212121;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+}
+

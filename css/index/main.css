@@ -1,0 +1,243 @@
+/* MAIN - DISCIPLINE FEATURES - START */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section.discipline_features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section.discipline_features > div.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section.discipline_features div.title > p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;   
+}
+
+main section.discipline_features div.title > div.separator{
+    margin-bottom: 50px;
+}
+
+main section.discipline_features .topics{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main section.discipline_features .topics .topic{
+    width: 180px;
+    height: 180px;
+    background-color: #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 0px 20px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+
+main section.discipline_features .topics .topic:hover{
+    width: 190px;
+    height: 190px;
+}
+
+main section.discipline_features .topics .topic > p{
+    font-size: 20px;
+    margin: 5px 0px;
+    font-weight: bold;
+}
+
+main section.discipline_features button{
+    border: none;
+    background-color: #212121;
+    width: 140px;
+    height: 40px;
+    margin-top: 50px;
+}
+
+main section.discipline_features button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+/* MAIN - DISCIPLINE FEATURES - END!!! */
+
+
+/* MAIN - DISCIPLINE SCHEDULES - START */
+main section.discipline_schedules{
+    background-color: #c4c4c4;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section.discipline_schedules div.title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section.discipline_schedules div.title h2{
+    margin-top: 30px;
+}
+/* MAIN - DISCIPLINE SCHEDULES - END !!!!! */
+
+/* MAIN - DISCIPLINE GRID - START */
+
+main section.discipline_schedules div.discipline_grid{
+    margin:     20px 250px;
+
+    display: grid;
+    grid-template-areas: "hd hd hd hd hd hd"
+                         "ch ch ch ch ch ch"
+                         "pf pf pf mt mt mt";
+}
+
+main section.discipline_schedules div.discipline_grid div.horario-aula{
+    grid-area: hd;
+}
+
+main section.discipline_schedules div.discipline_grid div.carga-horaria{
+    grid-area: ch;
+}
+
+main section.discipline_schedules div.discipline_grid div.professor{
+    grid-area: pf;
+}
+
+main section.discipline_schedules div.discipline_grid div.monitores{
+    grid-area: mt;
+}
+
+
+main section.discipline_schedules div.discipline_grid > div{
+    margin: 20px;
+}
+
+main section.discipline_schedules button{
+    border: none; 
+    width: 140px;
+    height: 40px;
+    background-color: #212121;
+    padding: 7px;
+    cursor: pointer;
+    margin-bottom: 20px; 
+}
+
+
+main section.discipline_schedules button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+/* MAIN - DISCIPLINE GRID - END!!!!! */
+
+/* MAIN - BIBLIOGRAFIA RECOMENDADA - START */
+
+main section.bibliografia{
+    display: flex;
+    flex-direction: column;
+}
+
+main section.bibliografia div.title{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: 20px;
+}
+
+main section.bibliografia div.title h3{
+    margin: 30px 0px 10px 0px;
+}
+
+main section.bibliografia div.books{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section.bibliografia div.books div.books-painel{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 250px 15px 250px;
+}
+
+main section.bibliografia div.books div.books-painel > img{
+    width: 150px;
+    height: 200px;
+    cursor: pointer;
+    margin: 25px;
+}
+
+main section.bibliografia div.sites{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section.bibliografia div.sites div.subtitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main section.bibliografia div.sites div.subtitle > h3{
+    margin: 15px 0px;
+} */
+
+main section.bibliografia div.sites div.sites-painel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}   
+
+main section.bibliografia div.sites div.sites-painel > a > img{
+    margin: 0px 20px;
+}
+
+main section.bibliografia div.sites div.sites-painel > a > img.w3s{
+    width: 100px;
+    height: 100px;
+}
+
+main section.bibliografia div.sites div.sites-painel > a > img.mdn{
+    width: 220px;
+    height: 50px;
+}
+
+/* MAIN - BIBLIOGRAFIA RECOMENDADA - END!!! */
